@@ -1,0 +1,112 @@
+body{
+    background-color:#034f84;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight:500;
+}
+
+.c{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.all{
+    margin:4px;
+    padding: 8px;
+    background-color:#c94c4c;
+    border-radius: 8px;
+}
+
+.bothteeth{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    color:rgb(39, 37, 37);
+}
+
+.halfteeth{
+    display: flex;
+    flex-direction: column;
+    background-color: #92a8d1;
+    border-radius: 8px;
+    padding: 10px;
+    width:45%;
+}
+
+.sibilings{
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.sisteeth{
+    width: 95%;
+    background-color:rgb(153, 225, 217);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.twoteeth{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.tooth{
+    width: 40%;
+    border-radius: 8px;
+    background-color: cornsilk;
+    padding: 5px;
+}
+
+.tooth li{
+    font-size: 16px;
+}
+
+.much{
+    padding:4px;
+}
+
+.tooth img{
+    display:block;
+    max-width: 90%;
+    margin:auto;
+    object-fit: cover;
+}
+
+
+@media screen and (max-width: 900px) {
+    .tooth img{
+        /*height: 20%;*/
+    }
+
+    .tooth li{
+        font-size: 11px;
+    }
+
+    body{
+        font-size: 13px;
+        font-weight: 450;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+    .tooth p{
+        font-size: 10px;
+    }
+    .tooth li{
+        font-size: 9px;
+    }
+    .tooth ul{
+        padding:1px;
+    }
+}
