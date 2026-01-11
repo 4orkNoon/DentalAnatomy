@@ -48,7 +48,7 @@ body{
 .twoteeth{
     display: flex;
     gap: 15px;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .tooth{
@@ -88,11 +88,11 @@ body{
     }
     
     ul{
-        padding: 4px;
+        padding: 5px;
     }
     
     body{
-        font-size: 11px;
+        font-size: 13px;
         font-weight: 450;
     }
 
@@ -111,6 +111,7 @@ body{
     }
 
 }
+
 
 
 
