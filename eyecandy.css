@@ -84,7 +84,11 @@ body{
     }
 
     .twoteeth{
-        gap:10px;
+        gap:8px;
+    } 
+
+    .tooth p{
+        font-size:12px;
     }
     
     .halfteeth{
@@ -100,8 +104,8 @@ body{
         font-weight: 450;
     }
 
-    summary{
-        font-size:13px;
+    details summary{
+        font-size:12px;
     }
 
 }
@@ -115,6 +119,7 @@ body{
     }
 
 }
+
 
 
 
